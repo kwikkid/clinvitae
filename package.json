@@ -1,0 +1,25 @@
+{
+  "name": "clinvitae",
+  "version": "1.0.0",
+  "description": "A web application that allows a user to search for genomic variants by gene name",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kwikkid/clinvitae.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kwikkid/clinvitae/issues"
+  },
+  "homepage": "https://github.com/kwikkid/clinvitae#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongojs": "^3.1.0"
+  }
+}
